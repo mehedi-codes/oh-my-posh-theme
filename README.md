@@ -1,30 +1,8 @@
 <div align="center">
 
-![blogsite](https://socialify.git.ci/mehedi-codes/blogsite/image?description=1&font=KoHo&language=1&name=1&pattern=Solid&theme=Auto)
-
-# DualSimplicity
-
-A clean, informative, two-line [Oh My Posh](https://ohmyposh.dev/) theme for everyday terminal work.
-
-[![License](https://img.shields.io/github/license/mehedi-codes/oh-my-posh-theme?style=flat-square)](./LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/mehedi-codes/oh-my-posh-theme?style=flat-square)](https://github.com/mehedi-codes/oh-my-posh-theme/stargazers)
-[![Oh My Posh](https://img.shields.io/badge/Oh%20My%20Posh-theme-7c3aed?style=flat-square)](https://ohmyposh.dev/)
+![oh-my-posh-theme](https://socialify.git.ci/mehedi-codes/oh-my-posh-theme/image?description=1&font=KoHo&language=1&name=1&pattern=Solid&theme=Auto)
 
 </div>
-
-## Overview
-
-**DualSimplicity** is designed to keep your prompt useful without making it noisy. Its two-line layout gives your command, working directory, Git context, and execution status enough room to remain readable across different terminal sizes.
-
-## Preview
-
-### Standard prompt
-
-![DualSimplicity standard prompt](./normal.webp)
-
-### Elevated prompt
-
-![DualSimplicity elevated prompt](./sudo.webp)
 
 ## Features
 
@@ -42,6 +20,16 @@ A clean, informative, two-line [Oh My Posh](https://ohmyposh.dev/) theme for eve
 - A shell supported by Oh My Posh, such as PowerShell, Bash, or Zsh.
 
 > **Tip:** If icons appear as squares or unexpected characters, install a Nerd Font and configure your terminal to use it.
+
+## Preview
+
+### Standard prompt
+
+![DualSimplicity standard prompt](./normal.webp)
+
+### Elevated prompt
+
+![DualSimplicity elevated prompt](./sudo.webp)
 
 ## Installation
 
