@@ -1,6 +1,6 @@
 <div align="center">
 
-![oh-my-posh-theme](https://socialify.git.ci/mehedi-codes/oh-my-posh-theme/image?description=1&font=KoHo&language=1&name=1&pattern=Solid&theme=Auto)
+![oh-my-posh-theme](https://socialify.dev/mehedi-codes/oh-my-posh-theme/image?description=1&font=KoHo&forks=1&issues=1&language=1&name=1&pattern=Solid&stargazers=1&theme=Auto)
 
 </div>
 
