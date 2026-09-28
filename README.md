@@ -1,40 +1,135 @@
-# 🎨 **DualSimplicity Oh-My-Posh Theme**
-
 <div align="center">
 
-[![wakatime](https://wakatime.com/badge/user/805ef0e4-46bb-49a3-bffc-fd6ca82758b5/project/85f80264-59eb-4155-a87f-9e1b2cfea843.svg)](https://wakatime.com/badge/user/805ef0e4-46bb-49a3-bffc-fd6ca82758b5/project/85f80264-59eb-4155-a87f-9e1b2cfea843)
+![blogsite](https://socialify.git.ci/mehedi-codes/blogsite/image?description=1&font=KoHo&language=1&name=1&pattern=Solid&theme=Auto)
+
+# DualSimplicity
+
+A clean, informative, two-line [Oh My Posh](https://ohmyposh.dev/) theme for everyday terminal work.
+
+[![License](https://img.shields.io/github/license/mehedi-codes/oh-my-posh-theme?style=flat-square)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/mehedi-codes/oh-my-posh-theme?style=flat-square)](https://github.com/mehedi-codes/oh-my-posh-theme/stargazers)
+[![Oh My Posh](https://img.shields.io/badge/Oh%20My%20Posh-theme-7c3aed?style=flat-square)](https://ohmyposh.dev/)
 
 </div>
 
-## Normal
-![](./normal.webp)
-## Admin
-![](./sudo.webp)
+## Overview
 
-Enhance your command-line experience with the DualSimplicity theme for Oh-My-Posh! This minimalist and elegant theme combines the power of a dual-line prompt with the simplicity of a clean design, making your terminal both functional and aesthetically pleasing.
+**DualSimplicity** is designed to keep your prompt useful without making it noisy. Its two-line layout gives your command, working directory, Git context, and execution status enough room to remain readable across different terminal sizes.
 
-## 🚀 **Features:**
+## Preview
 
-- Two-line prompt for improved readability and organization.
-- Thoughtfully designed prompt segments for essential information at a glance.
-- Subtle color palette that's easy on the eyes but visually distinct.
-- Enhanced symbols and icons to guide your workflow.
+### Standard prompt
 
-## 🔧 **Installation:**
+![DualSimplicity standard prompt](./normal.webp)
 
-1. Ensure you have Oh-My-Posh installed.
-2. Clone or download this repository.
-3. Import the 'dualsimplicity.omp.json' file into your Oh-My-Posh themes directory.
-4. Set 'dualsimplicity' as your selected theme in your shell configuration.
+### Elevated prompt
 
-## 🤝 **Contributions:**
+![DualSimplicity elevated prompt](./sudo.webp)
 
-Contributions, issues, and pull requests are welcome! Feel free to customize and improve the theme.
+## Features
 
-## 📄 **License:**
+- Two-line layout for improved readability.
+- Minimal, balanced visual design for long coding sessions.
+- Useful prompt context at a glance.
+- Git-aware prompt experience through Oh My Posh.
+- JSON configuration that is easy to customize.
+- Works with any shell supported by Oh My Posh.
 
-This theme is released under the [MIT License](./LICENSE).
+## Requirements
 
-Elevate your terminal aesthetics and functionality with DuoSimplex. Let your terminal tell your style story!
+- [Oh My Posh](https://ohmyposh.dev/docs/installation/linux) installed and available on your `PATH`.
+- A terminal with [Nerd Font](https://www.nerdfonts.com/) support for the best icon rendering.
+- A shell supported by Oh My Posh, such as PowerShell, Bash, or Zsh.
 
-### **Note:** Oh-My-Posh is a `prerequisite` for using this `theme`
+> **Tip:** If icons appear as squares or unexpected characters, install a Nerd Font and configure your terminal to use it.
+
+## Installation
+
+### 1. Download the theme
+
+Clone the repository or download [`dualsimplicity.omp.json`](./dualsimplicity.omp.json) directly:
+
+```bash
+git clone https://github.com/mehedi-codes/oh-my-posh-theme.git
+cd oh-my-posh-theme
+```
+
+### 2. Activate it in your shell
+
+Use the command for your shell and replace the path if you downloaded the file elsewhere.
+
+#### PowerShell
+
+Add this line to your PowerShell profile:
+
+```powershell
+oh-my-posh init pwsh --config "$HOME/oh-my-posh-theme/dualsimplicity.omp.json" | Invoke-Expression
+```
+
+Open a new terminal, or reload the profile:
+
+```powershell
+. $PROFILE
+```
+
+#### Bash
+
+Add this line to `~/.bashrc`:
+
+```bash
+eval "$(oh-my-posh init bash --config ~/oh-my-posh-theme/dualsimplicity.omp.json)"
+```
+
+Then reload your shell:
+
+```bash
+source ~/.bashrc
+```
+
+#### Zsh
+
+Add this line to `~/.zshrc`:
+
+```zsh
+eval "$(oh-my-posh init zsh --config ~/oh-my-posh-theme/dualsimplicity.omp.json)"
+```
+
+Then reload your shell:
+
+```zsh
+source ~/.zshrc
+```
+
+For setup instructions for other shells, see the [Oh My Posh initialization documentation](https://ohmyposh.dev/docs/installation/customize).
+
+## Customization
+
+The theme is defined in [`dualsimplicity.omp.json`](./dualsimplicity.omp.json). You can edit it to change colors, prompt segments, spacing, icons, and layout.
+
+To preview changes without modifying your shell profile, run:
+
+```bash
+oh-my-posh print primary --config ./dualsimplicity.omp.json
+```
+
+Refer to the [Oh My Posh configuration guide](https://ohmyposh.dev/docs/configuration/overview) and [segment documentation](https://ohmyposh.dev/docs/segments/overview) for available options.
+
+## Contributing
+
+Contributions are welcome. If you have an improvement or find a problem:
+
+1. Fork the repository.
+2. Create a branch for your change.
+3. Make your update and test the theme in your shell.
+4. Open a pull request with a clear description and screenshots where helpful.
+
+Please keep changes focused and preserve the theme's clean, readable character.
+
+## License
+
+DualSimplicity is available under the [MIT License](./LICENSE).
+
+## Acknowledgements
+
+- Built for [Oh My Posh](https://ohmyposh.dev/).
+- Icons are rendered with a compatible [Nerd Font](https://www.nerdfonts.com/).
